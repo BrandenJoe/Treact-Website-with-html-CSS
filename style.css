@@ -1073,6 +1073,12 @@ li{
     justify-content: space-between;
     
 }
+@media (min-width: 1024px) {
+    .threeplans__container{
+        flex-direction: row;
+        align-items: stretch;
+    }
+}
 
 .threeplans__styleddiv{
     position: absolute;
